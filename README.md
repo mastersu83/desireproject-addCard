@@ -1,2 +1,2 @@
 # desireproject-addCard
-ссылка https://mastersu83.github.io/desireproject-addCard/comment.html
+ссылка https://mastersu83.github.io/desireproject-addCard/
