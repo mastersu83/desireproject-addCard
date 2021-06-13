@@ -1,0 +1,190 @@
+{
+	"editor.formatOnSave": true,
+	"editor.detectIndentation": false,
+	"editor.fontFamily": "Fira Code",
+	"editor.tabSize": 2,
+	"editor.formatOnPaste": true,
+	"editor.wordWrap": "on",
+	"editor.formatOnType": true,
+	"editor.suggestSelection": "first",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"explorer.compactFolders": false,
+	"editor.cursorSmoothCaretAnimation": true,
+	"editor.smoothScrolling": true,
+	"editor.codeLensFontFamily": "Consolas, 'Courier New', monospace",
+	"editor.minimap.enabled": false,
+	"editor.renderWhitespace": "all",
+	"editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
+	"editor.hideCursorInOverviewRuler": true,
+	"git.ignoreMissingGitWarning": true,
+	"git.enableSmartCommit": true,
+	"git.autofetch": true,
+	"prettier.useTabs": true,
+	"liveSassCompile.settings.autoprefix": null,
+	"liveSassCompile.settings.generateMap": false,
+	"files.autoSave": "onFocusChange",
+	"liveServer.settings.donotShowInfoMsg": true,
+	"liveSassCompile.settings.formats": [
+		{
+			"format": "expanded",
+			"extensionName": ".css",
+			"savePath": "~../css"
+		},
+		{
+			"format": "compressed",
+			"extensionName": ".min.css",
+			"savePath": "~../css"
+		}
+	],
+	"workbench.startupEditor": "newUntitledFile",
+	"breadcrumbs.enabled": false,
+	"launch": {
+		"configurations": [],
+		"compounds": []
+	},
+	"ecsstractor_port.comment_style": "css",
+	"ecsstractor_port.destination": "tab",
+	"workbench.editorAssociations": [
+		{
+			"viewType": "jupyter.notebook.ipynb",
+			"filenamePattern": "*.ipynb"
+		}
+	],
+	"tabnine.experimentalAutoImports": true,
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"prettier.jsxSingleQuote": true,
+	"prettier.singleQuote": true,
+	"compile-hero.ignore": "app/scss/_*.scss",
+	"compile-hero.javascript-output-directory": "../js",
+	"compile-hero.less-output-directory": "../css",
+	"compile-hero.sass-output-directory": "../css",
+	"compile-hero.scss-output-directory": "../css",
+	"compile-hero.stylus-output-directory": "../css",
+	"compile-hero.generate-minified-css": true,
+	"compile-hero.generate-minified-javascript-only": true,
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[scss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.semanticTokenColorCustomizations": {
+		"enabled": false
+	},
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"name": "variable",
+				"scope": ["support.type.property-name.css"],
+				"settings": {
+					"foreground": "#66D9EF",
+					"fontStyle": ""
+				}
+			},
+			{
+				"name": "classColorCss",
+				"scope": [
+					"entity.other.attribute-name.class.css",
+					"entity.other.attribute-name.pseudo-class.css"
+				],
+				"settings": {
+					"foreground": "#FFCB6B",
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"name": "keyColorCss",
+				"scope": ["keyword.other.unit"],
+				"settings": {
+					"foreground": "#fdf1bd",
+					"fontStyle": "italic"
+				}
+			},
+			// {
+			// 	"name": "numColorCss",
+			// 	"scope": ["constant.numeric"],
+			// 	"settings": {
+			// 		"foreground": "#F92672",
+			// 		"fontStyle": ""
+			// 	}
+			// },
+			{
+				"name": "supColorCss",
+				"scope": ["support.constant"],
+				"settings": {
+					"foreground": "#A6E22E",
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"name": "otherColorCss",
+				"scope": [
+					"entity.other.attribute-name.parent-selector-suffix.css punctuation.definition.entity.css"
+				],
+				"settings": {
+					"foreground": "#FFCB6B",
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"name": "ColorfuncCss",
+				"scope": ["support.function", "constant.numeric"],
+				"settings": {
+					"foreground": "#F92672",
+					"fontStyle": "italic"
+				}
+			}
+		]
+	},
+	"workbench.colorCustomizations": {
+		"editor.foreground": "#aabbcc"
+	},
+	"workbench.iconTheme": "vscode-icons",
+	"workbench.productIconTheme": "el-vsc-v1-icons",
+	"minify.minifyExistingOnSave": true,
+
+	"minify.js": {
+		"mangle": true,
+		"compress": {
+			"sequences": true,
+			"properties": true,
+			"dead_code": true,
+			"drop_debugger": true,
+			"unsafe": false,
+			"unsafe_comps": false,
+			"conditionals": true,
+			"comparisons": true,
+			"evaluate": true,
+			"booleans": true,
+			"loops": true,
+			"unused": true,
+			"hoist_funs": true,
+			"keep_fargs": true,
+			"keep_fnames": false,
+			"hoist_vars": false,
+			"if_return": true,
+			"join_vars": true,
+			"collapse_vars": false,
+			"reduce_vars": false,
+			"side_effects": true,
+			"pure_getters": false,
+			"pure_funcs": null,
+			"negate_iife": false,
+			"drop_console": false,
+			"passes": 1,
+			"global_defs": {}
+		},
+		"output": {
+			"ascii_only": false,
+			"inline_script": false,
+			"max_line_len": 32000,
+			"braces": false,
+			"semicolons": true,
+			"comments": false,
+			"shebang": true,
+			"preamble": null,
+			"quote_style": "best"
+		}
+	},
+	"workbench.colorTheme": "Monokai Pro"
+}

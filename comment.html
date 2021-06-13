@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/style.css" />
+		<title>form</title>
+	</head>
+	<body class="root">
+		<div class="comments">
+			<div class="container">
+				<h3 class="comments__title">Comments:</h3>
+				<div class="comments__items"></div>
+			</div>
+		</div>
+		<div class="comment">
+			<div class="container">
+				<div class="comment__title">Post a Comment</div>
+				<form id="formAdd" class="comment__form" i>
+					<textarea
+						class="comment__input-text"
+						form="formAdd"
+						type="text"
+						placeholder="Your comment"
+						required
+					></textarea>
+					<div class="comment__data">
+						<input
+							class="comment__input-name"
+							form="formAdd"
+							name="text"
+							placeholder="Your name"
+							required
+						/>
+						<input
+							class="comment__input-mail"
+							form="formAdd"
+							type="e-mail"
+							placeholder="Your e-mail"
+							required
+						/>
+					</div>
+					<div class="comment__remember-box">
+						<div class="comment__remember"></div>
+						<p class="comment__remember-text">Remember me</p>
+					</div>
+					<button class="comment__submit" form="formAdd" type="submit">
+						Submit
+					</button>
+				</form>
+			</div>
+		</div>
+		<template class="template__comments" id="template-photos">
+			<div class="comments__item">
+				<img src="" alt="" class="comments__item-img" />
+				<div class="comments__content">
+					<div class="comments__content-top">
+						<span class="comments__name"></span>
+						<span class="comments__date"></span>
+					</div>
+					<span class="comments__text"> </span>
+				</div>
+				<span class="comments__reply">Reply</span>
+			</div>
+		</template>
+
+		<script src="js/script.js"></script>
+	</body>
+</html>
